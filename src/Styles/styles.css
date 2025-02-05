@@ -1,0 +1,57 @@
+body {
+    background-color: #b59e62; 
+    color: #333; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #afafaf;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #ffb74d; 
+    border-color: #ff9800;
+}
+
+.btn-primary:hover {
+    background-color: #ff9800;
+}
+
+.list-group-item {
+    border: none;
+    border-bottom: 1px solid #17cae6;
+}
+
+.badge {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.modal.fade .modal-dialog {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    transform: translateY(-10px);
+    opacity: 0;
+}
+
+.modal.show .modal-dialog {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.task-item {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.task-item:hover {
+    transform: scale(1.03);
+}
